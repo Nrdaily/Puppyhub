@@ -4,8 +4,8 @@ const puppyInfo = [
         img: './assets/images/dashchund/profile.png',
         name: 'dashchund',
         desc: "Our dachshund puppies are ready to test your boundaries and explore their new home with you. Dachshunds aren't built for distance running, leaping, or strenuous swimming, but otherwise these tireless hounds are game for anything.",
-        price: 1400,
-        disPrice: 1600, 
+        price: 600,
+        disPrice: 1200, 
         reviewStar: `<span><i class="fas fa-star"></i></span>
                     <span><i class="fas fa-star"></i></span>
                     <span><i class="fas fa-star"></i></span>
@@ -20,8 +20,8 @@ const puppyInfo = [
         img: './assets/images/english-bulldog/profile.jpg',
         name: 'english bulldog',
         desc: ' recusandae consequuntur rem tempore expedita fuga sed provident vel quos architecto ducimus aspernatur excepturi ullam, iste blanditiis unde minus.',
-        price: 1200,
-        disPrice: 1500, 
+        price: 800,
+        disPrice: 1300, 
         reviewStar: `<span><i class="fas fa-star"></i></span>
         <span><i class="fas fa-star-half"></i></span>`,
         reviewRate: '(1.0K Reviews)',
@@ -34,8 +34,8 @@ const puppyInfo = [
         img: './assets/images/maltese-dog/profile.jpg',
         name: 'maltese dog',
         desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatibus',
-        price: 1000,
-        disPrice: 1300, 
+        price: 700,
+        disPrice: 1000, 
         reviewStar: `<span><i class="fas fa-star"></i></span>`,
         reviewRate: '(1.0K Reviews)',
         statsSold: 15,
@@ -47,8 +47,8 @@ const puppyInfo = [
         img: './assets/images/chihuahua/a.jpg',
         name: 'chihuahua',
         desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatibus',
-        price: 1100,
-        disPrice: 1500, 
+        price: 800,
+        disPrice: 1200, 
         reviewStar: `<span><i class="fas fa-star"></i></span>
         <span><i class="fas fa-star-half"></i></span>`,
         reviewRate: '(1.3K Reviews)',
@@ -61,8 +61,8 @@ const puppyInfo = [
         img: './assets/images/yorkipoo/profile.jpg',
         name: 'yorkipoo',
         desc: 'Lorem, ipsum dolor sit amet  adipisicing elit. Quis voluptatibus',
-        price: 1500,
-        disPrice: 1800, 
+        price: 500,
+        disPrice: 800, 
         reviewStar: `<span><i class="fas fa-star"></i></span>
         <span><i class="fas fa-star"></i></span>
         <span><i class="fas fa-star"></i></span>
@@ -77,8 +77,8 @@ const puppyInfo = [
         img: './assets/images/maltese-dog/5.jpg',
         name: 'Toy Poodle',
         desc: 'Lorem, ipsum dolor sit amet  adipisicing elit. Quis voluptatibus',
-        price: 1000,
-        disPrice: 2000, 
+        price: 800,
+        disPrice: 1500, 
         reviewStar: `<span><i class="fas fa-star"></i></span>
         <span><i class="fas fa-star"></i></span>
         <span><i class="fas fa-star-half"></i></span>`,

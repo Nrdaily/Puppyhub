@@ -3,11 +3,8 @@ body{
     min-height: 100vh;
     font-family: system-ui;
     color:#eee;
-    background-image: linear-gradient(
-        to bottom right,
-        #9f7519,
-        #536f3f
-    );
+    background-image: linear-gradient(to bottom right, #9f7519, #536f3f);
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,4 +57,37 @@ h1{
 .time .item::after{
     left: unset;
     right:0;
+}
+
+form{
+    width: 300px;
+}
+form .flex{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.flex input{
+    height: 100%;
+    padding: 0 1rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+form .btn{
+    background: #9f7519;
+    color: #eee;
+}
+
+@media (max-width: 750px) {
+    body{
+        flex-direction: column;
+    }
+    form, .flex{
+        width: 100%;
+        padding: 2%;
+    }
+    input[type="text"]{
+        width: 100%;
+    }
 }

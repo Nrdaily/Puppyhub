@@ -1,4 +1,4 @@
-let endDate = new Date("05/20/2024 00:00:00").getTime();
+let endDate = new Date("06/20/2024 00:00:00").getTime();
 let check = setInterval(function(){
     let now = new Date().getTime();
     let distance = endDate - now;
